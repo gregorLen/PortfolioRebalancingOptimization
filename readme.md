@@ -35,4 +35,4 @@ To install requirements,  `cd` to the directory of the repository and run `pip i
 - other objective functions 
 ---
 ## 4. Contact
-I am very thankful for any kind of feedback. Also, if you have questions, please contact gregor.lenhard@unibas.ch# PortfolioRebalancingOptimization
+I am very thankful for any kind of feedback. Also, if you have questions, please contact gregor.lenhard@unibas.ch .
