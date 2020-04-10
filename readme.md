@@ -3,7 +3,7 @@ A stock price simulation that optimizes the rolling net sharpe ratio of a portfo
 
 ## 1. Features
 #### Sandbox
-The sandbox `main_rebalancing.py` is a little sandbox that let's you play around the parameters. The underlining data is from the german stock market (`germanstocks.csv`). The data is being bootstrapped to ensure a different outcome for every simulation. The objective function is the effective (net) sharpe ratio _after transaction costs_. 
+`main_rebalancing.py` is a little sandbox that let's you play around with the parameters. The underlining data is from the german stock market (`germanstocks.csv`). The data is being bootstrapped to ensure a different outcome for every simulation. The objective function is the effective (net) sharpe ratio _after transaction costs_. 
 #### Experimental Setup
 `experiment_rebalancing.py` is an experimental design to try several hyperparameters. Multi processing is included. The script writes a `.csv` and evaluates several performance measures.
 #### Model Parameters
