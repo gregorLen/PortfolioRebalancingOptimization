@@ -21,6 +21,18 @@ Currently the implementation support several parameters.
 - `T_invst` is the investment horizon. 
 - `BL` is the block length for the bootstrap.
 - `cvar` is the amount of variable transaction costs.
+ 
+#### Examples
+Example of a three year portfolio simulation based on Sequential Least Squares Programming optimization. The plot shows:
+( a ) Stock market prices
+( b ) Portfolio weights over time
+( c ) portfolio balance the dynamic portfolio (net/gross) and a portfolio without rebalancing.
+( d ) Rolling sharpe ratio w.r.t. to marturity
+![example_SLSQP](https://github.com/gregorLen/PortfolioRebalancingOptimization/blob/master/img/example_SLSQP.png?raw=true)
+
+Example of an "equally weighted portfolio"-strategy:
+![example_EW](https://github.com/gregorLen/PortfolioRebalancingOptimization/blob/master/img/example_ew.png?raw=true)
+
 
 ## 2. Dependencies
 - numpy 
